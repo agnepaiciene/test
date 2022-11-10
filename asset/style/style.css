@@ -1,6 +1,11 @@
 h1{
   color: red;
 }
+
+  *{
+    margin: 0;
+    padding: 0;
+  }
   
 .header {
 background-color: blue;
@@ -8,29 +13,29 @@ height: 100px;
 padding-top: 20px;
 }
 .header img{
-  
-
+  width: 20%;
+  float:center;
 }
 .nav{
-  background-color: rgb(118, 118, 61);
+  background-color: rgb(200, 200, 99);
   height: 80px;
 
 }
 .nav li{
   display: inline-block;
   line-height: 80px;
-  font-size: 18px;
-  color: rgb(36, 36, 55);
+  font-size: 20px;
+  color: rgb(80, 80, 120);
   margin-right: 30px;
 }
   .nav li a{
     color: inherit;
     text-decoration: none;
     transition: all 0,5s;
-
+    border-bottom: 3px solid transparent;
   }
 .nav li a :hover{
-  border-bottom: 3px solid rgb(228, 110, 110);
+  border-bottom: 3px solid rgb(31, 109, 78);
 }
 
 .wraper{
@@ -39,16 +44,16 @@ padding-top: 20px;
   height: inherit;
 }
 .content{
-background-color: antiquewhite;
-overflow: hidden;
+background-color: rgb(144, 159, 165);
 /* height: 500px;*/
-
+padding: 30px 0;
+overflow: hidden;
 
 }
 .content .content-img{
 width: 300px;
 float: right;
-padding:  O px 20px 20px 0px;
+padding:0 20px 20px 0;
 
 }
 
@@ -57,25 +62,38 @@ padding:  O px 20px 20px 0px;
   padding: 20px 10px;
   background-color: rgb(225, 187, 137);
   float: left;
-  margin: 0px 10px;
+  margin: 20px 10px;
   text-align: center;
-  border-radius: 50%
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+
 }
 .item img{
 width: 50%;
-padding: 2Opx 0px;
+padding: 2Opx 0;
 }
 
 .item a{
 text-decoration: none;
-text-align: center;
+color: rgb(35, 35, 50);
+border: 2px solid rgb(139, 139, 199);
+border-radius: 20px;
+padding: 8px 20px;
+transition:all 0.8s;
 
+}
+.item a:hover{
+background-color: rgb(61, 139, 139);
+color: white;
 }
 
 .item p{
-
+padding-bottom: 20px;
 }
 .footer{
 background-color: blue;
-height: auto;
+height: 50px;
 }
