@@ -5,20 +5,63 @@ h1{
   *{
     margin: 0;
     padding: 0;
+    
   }
-  
-.header {
-background-color: blue;
-height: 100px;
-padding-top: 20px;
+.wraper{
+    max-width: 1200px;
+    margin: 0 auto;
+    height: inherit;
+    
 }
+.header {
+background-color: rgb(8, 8, 9);
+height:180px;
+padding-top: 20px;
+
+
+}
+
 .header img{
-  width: 20%;
-  float:center;
+  width: 180px;
+  text-align: left;
+  
+}
+.paieska{
+  display: inline-block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px
+}
+.paieska li{
+  display: inline-block;
+  margin-right: 30px;
+  line-height: 50px;
+  font-size: 20px;
+  text-align: right;
+  list-style-type: none;
+  z-index: 2;
+  position: relative;
+}
+.paieska li a{
+    color: white;
+    text-decoration: none;
+    transition: all 0.5s;
+    border-bottom: 3px solid transparent;
+}
+
+.paieska li a:hover{
+    color: white;
+    text-decoration: none;
+    transition: all 0.5s;
+    border-bottom: 3px solid transparent;
+
 }
 .nav{
-  background-color: rgb(200, 200, 99);
   height: 80px;
+  background-color: #FAFAFA;
+
 
 }
 .nav li{
@@ -26,74 +69,172 @@ padding-top: 20px;
   line-height: 80px;
   font-size: 20px;
   color: rgb(80, 80, 120);
-  margin-right: 30px;
+  text-align:center;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+ 
 }
   .nav li a{
     color: inherit;
     text-decoration: none;
-    transition: all 0,5s;
+    transition: all 0.5s;
     border-bottom: 3px solid transparent;
   }
 .nav li a :hover{
-  border-bottom: 3px solid rgb(31, 109, 78);
+  color: inherit;
+    text-decoration: none;
+    transition: all 0.5s;
+    border-bottom: 3px solid transparent;
 }
 
-.wraper{
-  max-width: 1200px;
-  margin: 0 auto;
-  height: inherit;
-}
+
 .content{
-background-color: rgb(144, 159, 165);
-/* height: 500px;*/
+background-color:white;
+/* height: 530px;*/
 padding: 30px 0;
 overflow: hidden;
 
+
 }
 .content .content-img{
-width: 300px;
-float: right;
-padding:0 20px 20px 0;
-
+width: 50%;
+margin: 10px 150px 10px 150px;  
+padding: 20px 200px 20px 200px;
+ 
 }
-
+.content p{
+  
+  font-style: italic;
+  font-family:'Franklin Gothic Medium';
+  text-align: center;
+  font:bold;
+  color: rgb(62, 62, 104);
+  text-decoration-color: grey;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  
+}
 .item{
-  width: 25%;
-  padding: 20px 10px;
-  background-color: rgb(225, 187, 137);
+  width: 30%;
+  padding: 10px 10px;
+  background-color: rgb(209, 208, 226, 0.27);
   float: left;
   margin: 20px 10px;
   text-align: center;
-  border-radius: 20px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
-
+  border-radius:  80px;
+  
+}
+.item h2{
+  font-size: 20px;
+  font-style: italic;
+  font-family: 'Lucida Sans';
+  line-height: 50px;
 }
 .item img{
 width: 50%;
 padding: 2Opx 0;
+margin: auto;
+position: relative;
 }
 
 .item a{
 text-decoration: none;
-color: rgb(35, 35, 50);
-border: 2px solid rgb(139, 139, 199);
-border-radius: 20px;
+background-color: rgba(30, 30, 44, 0.143);
+color: rgb(53, 53, 62);
+border: 2px solid rgba(12, 12, 12, 0.24);
+border-radius: 50px;
 padding: 8px 20px;
 transition:all 0.8s;
 
 }
 .item a:hover{
-background-color: rgb(61, 139, 139);
+background-color: rgb(2, 3, 3);
 color: white;
 }
 
 .item p{
 padding-bottom: 20px;
+line-height: 20px;
+font-size: 25px;
+font-style: italic;
+
 }
+.brand{
+  background-color:white;
+/* height: 330px;*/
+padding: 30px 0;
+overflow: hidden;
+display: inline-block;
+}
+.brand_item{
+  display: inline-block;
+  padding: 30px 30px;
+  text-align: center;
+}
+
+
+.brand_item .image-contain{
+width: 300px;
+display: inline-block;
+}
+
 .footer{
-background-color: blue;
-height: 50px;
+background-color: rgb(33, 33, 35);
+height: 200px;
+color: white;
+padding-top: 10px;
+padding-bottom: 10px;
+display: block;
 }
+
+
+
+
+.footer .span{
+display: inline-bblock;
+color: white;
+font-style: italic;
+line-height: 20px;
+    padding-top: 0px;
+    padding-right: 20px;
+    padding-bottom: 0px;
+    padding-left: 700px;
+text-align: right;
+}
+
+.footer .footer-img{
+width: 300px;
+padding: 10px 10px 10px;
+line-height: 30px;
+display: inline-block;
+margin-top: 0px;
+}
+.footer img{
+  width: 30px;
+  display: inline-block;
+  
+}
+
+  .footer ul{
+display: inline-block;
+text-align: justify;
+  }
+
+
+  .footer-img li{
+    display: inline-block;
+    margin-right: 10px;
+
+}
+  .footer-img ul li{
+      margin-top: 10px;
+      display: inline-block;
+      padding: 0px 0px 0px;
+  }
+ #produktai{
+  
+ }
