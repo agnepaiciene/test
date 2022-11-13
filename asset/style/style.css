@@ -247,5 +247,52 @@ padding: 20px;
 
 #produktai .item{
   background-size: 400px;
+}
+.air{
+  border: 2px solid silver;
+  margin:10px;
+  padding: 10px;
+  text-align: center;
+  width:1000px;
+  height: 600px;
+  float: left;
+  background:linear-gradient (silver 10%);
+}
+.tituline{
+  width: 500px;
+}
+.air img{
+width: 400px;
+margin: 10px;
+padding: 10px;
+display: inline-block;
+}
+.air li{
+display: inline-block;
+}
+.air li img{
+  width: 100px;
+  padding:5px;
+  margin: auto;
+}
 
+.air p{
+  margin:5px;
+  padding: 5px;
+  font-size: 22px;
+  font-family: 'Times New Roman', Times, serif ;
+font-style: italic;
+}
+.air a{
+  text-decoration: none;
+background-color: rgba(30, 30, 44, 0.143);
+color: rgb(53, 53, 62);
+border: 2px solid rgba(12, 12, 12, 0.24);
+border-radius: 50px;
+padding:8px 20px;
+transition:all 0.8s;
+margin: 10px;
+}
+.air form{
+  display:flex;
 }
